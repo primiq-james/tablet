@@ -1,0 +1,10 @@
+[
+  {
+    "id": "05fe0df1208c",
+    "filename": "capture-05fe0df1208c.png",
+    "path": "data/captures/capture-05fe0df1208c.png",
+    "created_at": "2026-04-21T01:58:38.871630+00:00",
+    "label": "test capture",
+    "analysis": "Camera preview is working, but the local vision model call failed.\n\nReason: Could not reach Ollama at http://127.0.0.1:11434: [Errno 1] Operation not permitted\n\nStart a compatible Ollama vision model and try again."
+  }
+]

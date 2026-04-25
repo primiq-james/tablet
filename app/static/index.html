@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Circuit Tablet</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Local-First Tablet</p>
+          <h1>Circuit Tablet</h1>
+          <p class="subhead">Search your library, browse diagrams and maps, and ask grounded questions from local files.</p>
+        </div>
+        <button id="scan-button" class="action-button">Scan Library</button>
+      </header>
+
+      <main class="grid">
+        <section class="panel">
+          <h2>Grounded Chat</h2>
+          <form id="chat-form" class="stack">
+            <textarea id="chat-input" rows="5" placeholder="Ask a grounded question, like: how do I wire a 7805 regulator or when do I plant cucumbers in northern Arkansas?"></textarea>
+            <div class="voice-bar">
+              <button type="button" id="voice-input-button" class="ghost-button">Record with Whisper</button>
+              <button type="button" id="voice-output-button" class="ghost-button">Piper Output Off</button>
+              <span id="voice-status" class="voice-status">Browser voice idle</span>
+            </div>
+            <div class="actions">
+              <button type="submit" class="action-button">Ask Local Model</button>
+              <button type="button" id="context-button" class="ghost-button">Show Context</button>
+            </div>
+          </form>
+          <div id="router-output" class="status-chip">Router idle</div>
+          <div id="chat-output" class="output"></div>
+          <div id="chat-citations" class="citations"></div>
+        </section>
+
+        <section class="panel">
+          <h2>Document Search</h2>
+          <form id="search-form" class="stack">
+            <input id="search-input" type="text" placeholder="Search textbooks, datasheets, farming guides, maps...">
+            <button type="submit" class="action-button">Search Documents</button>
+          </form>
+          <div id="search-results" class="results"></div>
+        </section>
+
+        <section class="panel media-panel">
+          <h2>Images, Diagrams, Maps</h2>
+          <form id="media-form" class="stack">
+            <input id="media-input" type="text" placeholder="Search diagrams, photos, maps, wiring images...">
+            <button type="submit" class="action-button">Search Media</button>
+          </form>
+          <div id="media-results" class="media-results"></div>
+        </section>
+
+        <section class="panel media-panel">
+          <h2>Camera Recognition</h2>
+          <div class="camera-grid">
+            <div class="camera-stage">
+              <video id="camera-preview" class="camera-preview" autoplay playsinline muted></video>
+              <canvas id="camera-canvas" class="camera-canvas"></canvas>
+              <img id="camera-snapshot" class="camera-snapshot" alt="Latest captured frame">
+            </div>
+            <div class="camera-controls">
+              <div class="stack">
+                <input id="vision-prompt" type="text" value="Identify the main item I am holding and what it seems to be used for.">
+                <div class="actions">
+                  <button type="button" id="camera-start-button" class="action-button">Start Camera</button>
+                  <button type="button" id="camera-analyze-button" class="ghost-button">Analyze Frame</button>
+                  <button type="button" id="camera-save-button" class="ghost-button">Save Capture</button>
+                  <button type="button" id="camera-auto-button" class="ghost-button">Auto Analyze Off</button>
+                </div>
+                <p id="camera-status" class="voice-status">Camera idle</p>
+              </div>
+              <div id="vision-output" class="output">Show the camera something and analyze a frame.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel media-panel">
+          <h2>Capture Gallery</h2>
+          <div class="actions">
+            <button type="button" id="gallery-refresh-button" class="ghost-button">Refresh Gallery</button>
+          </div>
+          <div id="gallery-results" class="media-results"></div>
+        </section>
+
+        <section class="panel media-panel">
+          <h2>Settings</h2>
+          <form id="settings-form" class="settings-grid">
+            <label>
+              <span>Library Root</span>
+              <input id="settings-library-root" type="text">
+            </label>
+            <label>
+              <span>Chat Model</span>
+              <input id="settings-chat-model" type="text">
+            </label>
+            <label>
+              <span>Vision Model</span>
+              <input id="settings-vision-model" type="text">
+            </label>
+            <label>
+              <span>Whisper Model Size</span>
+              <input id="settings-whisper-model-size" type="text">
+            </label>
+            <label>
+              <span>Piper Binary</span>
+              <input id="settings-piper-binary" type="text">
+            </label>
+            <label>
+              <span>Piper Model Path</span>
+              <input id="settings-piper-model-path" type="text">
+            </label>
+            <label>
+              <span>Camera Interval Seconds</span>
+              <input id="settings-camera-interval" type="number" min="1" max="30">
+            </label>
+            <label>
+              <span>Default Chat Limit</span>
+              <input id="settings-chat-limit" type="number" min="1" max="20">
+            </label>
+            <label>
+              <span>Retrieval Window</span>
+              <input id="settings-retrieval-window" type="number" min="0" max="5">
+            </label>
+            <label class="checkbox-row">
+              <input id="settings-voice-output-enabled" type="checkbox">
+              <span>Enable Piper output after answers</span>
+            </label>
+            <label class="checkbox-row">
+              <input id="settings-camera-auto-analyze" type="checkbox">
+              <span>Enable auto analyze on load</span>
+            </label>
+            <div class="actions">
+              <button type="submit" class="action-button">Save Settings</button>
+            </div>
+          </form>
+          <p id="settings-status" class="voice-status">Settings loading...</p>
+        </section>
+      </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

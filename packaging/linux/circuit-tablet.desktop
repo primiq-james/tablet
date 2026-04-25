@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Circuit Tablet Native
+Comment=Offline-first AI field tablet workstation
+Exec=python3 -m native_app
+Path=/opt/circuit-tablet
+Terminal=false
+Categories=Utility;Office;Development;

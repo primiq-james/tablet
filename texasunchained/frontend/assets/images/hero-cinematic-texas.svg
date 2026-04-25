@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1118"/>
+      <stop offset="55%" stop-color="#121a24"/>
+      <stop offset="100%" stop-color="#081018"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0ca84"/>
+      <stop offset="100%" stop-color="#b98837"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dfe4ea"/>
+      <stop offset="100%" stop-color="#6d7788"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="70"/></filter>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#bg)"/>
+  <circle cx="260" cy="180" r="180" fill="#d2a45c" opacity="0.22" filter="url(#blur)"/>
+  <circle cx="1480" cy="240" r="220" fill="#214062" opacity="0.38" filter="url(#blur)"/>
+  <path d="M0 870 C180 820 260 760 380 730 C530 690 620 730 740 700 C850 670 980 560 1080 550 C1170 542 1250 592 1360 578 C1500 560 1640 460 1800 420 L1800 1200 L0 1200 Z" fill="#0f1824"/>
+  <path d="M0 980 C190 930 310 860 500 840 C650 824 810 870 950 820 C1100 766 1270 640 1450 638 C1610 636 1700 700 1800 724 L1800 1200 L0 1200 Z" fill="#122030"/>
+  <g opacity="0.94">
+    <rect x="110" y="425" width="48" height="275" rx="10" fill="url(#steel)"/>
+    <rect x="132" y="340" width="4" height="112" fill="url(#steel)"/>
+    <path d="M134 345 L216 378 L134 410 Z" fill="url(#steel)"/>
+    <path d="M134 520 L214 552 L134 585 Z" fill="url(#steel)"/>
+    <path d="M610 430 h54 v265 h-54 z" fill="url(#steel)"/>
+    <path d="M640 320 L740 405 H540 Z" fill="url(#steel)"/>
+    <path d="M1110 540 h280 v18 h-280z" fill="url(#steel)"/>
+    <path d="M1160 370 h20 v185 h-20z" fill="url(#steel)"/>
+    <path d="M1328 410 h18 v148 h-18z" fill="url(#steel)"/>
+    <path d="M1172 384 L1360 460" stroke="url(#steel)" stroke-width="10"/>
+    <path d="M1190 554 L1360 460" stroke="url(#steel)" stroke-width="10"/>
+  </g>
+  <g opacity="0.22">
+    <rect x="820" y="320" width="18" height="280" fill="url(#gold)"/>
+    <rect x="850" y="280" width="18" height="320" fill="url(#gold)"/>
+    <rect x="880" y="340" width="18" height="260" fill="url(#gold)"/>
+    <rect x="910" y="250" width="18" height="350" fill="url(#gold)"/>
+    <rect x="940" y="300" width="18" height="300" fill="url(#gold)"/>
+  </g>
+  <g fill="url(#gold)" opacity="0.9">
+    <circle cx="300" cy="822" r="6"/>
+    <circle cx="336" cy="814" r="6"/>
+    <circle cx="388" cy="824" r="6"/>
+    <circle cx="450" cy="816" r="6"/>
+    <circle cx="502" cy="826" r="6"/>
+    <circle cx="1170" cy="774" r="6"/>
+    <circle cx="1204" cy="766" r="6"/>
+    <circle cx="1240" cy="776" r="6"/>
+    <circle cx="1288" cy="768" r="6"/>
+  </g>
+  <path d="M156 824 C206 780 286 760 354 778 C442 800 504 872 594 882 C690 892 810 828 882 760" stroke="url(#gold)" stroke-width="4" opacity="0.55" fill="none"/>
+  <g fill="#0c1118" opacity="0.96">
+    <path d="M60 1080 C140 995 210 958 300 965 C418 974 470 1040 552 1038 C610 1036 644 1006 696 1010 C784 1016 834 1108 950 1088 C1016 1076 1042 1030 1104 1022 C1196 1010 1280 1102 1380 1084 C1460 1070 1500 1008 1588 998 C1662 990 1734 1036 1800 1080 L1800 1200 L60 1200 Z"/>
+  </g>
+</svg>

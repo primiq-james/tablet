@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#0b1017" />
+  <circle cx="1180" cy="160" r="260" fill="#c6a15c" opacity="0.1" />
+  <rect x="180" y="180" width="1240" height="520" rx="34" fill="#141d28" stroke="#5d6b7a" stroke-width="2" />
+  <rect x="260" y="270" width="720" height="42" rx="21" fill="#d9e2ed" opacity="0.14" />
+  <rect x="260" y="340" width="620" height="34" rx="17" fill="#d9e2ed" opacity="0.11" />
+  <rect x="260" y="400" width="500" height="34" rx="17" fill="#d9e2ed" opacity="0.11" />
+  <path d="M1100 280 L1320 500" stroke="#c6a15c" stroke-width="14" />
+  <path d="M1320 280 L1100 500" stroke="#c6a15c" stroke-width="14" />
+  <text x="180" y="120" fill="#f4f2ec" font-family="Arial, sans-serif" font-size="64" font-weight="700">Leadership Failures</text>
+  <text x="180" y="810" fill="#aab6c6" font-family="Arial, sans-serif" font-size="30">Strong language means little if delivery keeps slipping behind the promise.</text>
+</svg>

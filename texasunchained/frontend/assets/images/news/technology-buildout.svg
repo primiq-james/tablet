@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#091018" />
+  <rect x="220" y="180" width="1160" height="540" rx="44" fill="#101825" stroke="#7f8ea3" stroke-width="2" />
+  <rect x="340" y="290" width="300" height="300" rx="34" fill="#c6a15c" opacity="0.14" />
+  <rect x="430" y="220" width="120" height="70" rx="18" fill="#c6a15c" />
+  <rect x="800" y="270" width="400" height="40" rx="20" fill="#dde5ee" opacity="0.16" />
+  <rect x="800" y="340" width="330" height="30" rx="15" fill="#dde5ee" opacity="0.12" />
+  <rect x="800" y="392" width="280" height="30" rx="15" fill="#dde5ee" opacity="0.12" />
+  <text x="220" y="120" fill="#f4f2ec" font-family="Arial, sans-serif" font-size="64" font-weight="700">Technology</text>
+  <text x="220" y="810" fill="#aab6c6" font-family="Arial, sans-serif" font-size="30">Semiconductors, compute, manufacturing, and industrial advantage built at state scale.</text>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "camera_auto_analyze": false,
+  "camera_interval_seconds": 4,
+  "chat_model": "qwen2.5:1.5b",
+  "default_chat_limit": 6,
+  "index_db_path": "data/index/library.db",
+  "library_root": "data/library",
+  "piper_binary": "piper",
+  "piper_model_path": "",
+  "retrieval_window": 1,
+  "vision_model": "qwen2.5vl:3b",
+  "voice_output_enabled": false,
+  "whisper_model_size": "base"
+}

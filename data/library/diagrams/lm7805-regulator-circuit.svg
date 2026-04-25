@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#11161a"/>
+  <rect x="40" y="40" width="1200" height="640" rx="30" fill="#171f24" stroke="#2b6f5a" stroke-width="3"/>
+  <text x="80" y="110" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="34" font-weight="700">LM7805 Regulator Reference</text>
+  <text x="80" y="150" fill="#8fa6a0" font-family="Arial, sans-serif" font-size="20">12V input to 5V rail with capacitors and diode protection</text>
+
+  <line x1="120" y1="340" x2="1110" y2="340" stroke="#9fd2c3" stroke-width="6"/>
+  <line x1="120" y1="520" x2="1110" y2="520" stroke="#637670" stroke-width="4"/>
+  <text x="88" y="330" fill="#c8d7d1" font-family="Arial, sans-serif" font-size="20">VIN</text>
+  <text x="86" y="515" fill="#7e928c" font-family="Arial, sans-serif" font-size="20">GND</text>
+  <text x="1124" y="330" fill="#c8d7d1" font-family="Arial, sans-serif" font-size="20">+5V OUT</text>
+
+  <rect x="470" y="245" width="210" height="190" rx="24" fill="#223238" stroke="#3b866b" stroke-width="4"/>
+  <text x="520" y="295" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="28" font-weight="700">LM7805</text>
+  <text x="505" y="332" fill="#9fd2c3" font-family="Arial, sans-serif" font-size="20">IN   GND   OUT</text>
+  <line x1="470" y1="340" x2="390" y2="340" stroke="#9fd2c3" stroke-width="6"/>
+  <line x1="575" y1="435" x2="575" y2="520" stroke="#c5d0cd" stroke-width="6"/>
+  <line x1="680" y1="340" x2="780" y2="340" stroke="#9fd2c3" stroke-width="6"/>
+
+  <rect x="230" y="250" width="90" height="145" rx="14" fill="#1d2a30" stroke="#36544c" stroke-width="3"/>
+  <text x="246" y="297" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="22">C1</text>
+  <text x="244" y="332" fill="#9fd2c3" font-family="Arial, sans-serif" font-size="18">0.33uF</text>
+  <line x1="275" y1="250" x2="275" y2="340" stroke="#9fd2c3" stroke-width="6"/>
+  <line x1="275" y1="395" x2="275" y2="520" stroke="#c5d0cd" stroke-width="6"/>
+
+  <rect x="850" y="250" width="90" height="145" rx="14" fill="#1d2a30" stroke="#36544c" stroke-width="3"/>
+  <text x="866" y="297" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="22">C2</text>
+  <text x="864" y="332" fill="#9fd2c3" font-family="Arial, sans-serif" font-size="18">0.1uF</text>
+  <line x1="895" y1="250" x2="895" y2="340" stroke="#9fd2c3" stroke-width="6"/>
+  <line x1="895" y1="395" x2="895" y2="520" stroke="#c5d0cd" stroke-width="6"/>
+
+  <polygon points="360,320 395,340 360,360" fill="#d4e4de"/>
+  <line x1="320" y1="340" x2="360" y2="340" stroke="#9fd2c3" stroke-width="6"/>
+  <text x="314" y="302" fill="#8fa6a0" font-family="Arial, sans-serif" font-size="18">D1 reverse protection</text>
+
+  <text x="126" y="390" fill="#8fa6a0" font-family="Arial, sans-serif" font-size="20">Battery / 12V bus</text>
+  <text x="856" y="392" fill="#8fa6a0" font-family="Arial, sans-serif" font-size="20">Logic rail / MCU</text>
+
+  <rect x="90" y="580" width="1100" height="58" rx="16" fill="#141a1e" stroke="#223036" stroke-width="2"/>
+  <text x="120" y="618" fill="#9fd2c3" font-family="Arial, sans-serif" font-size="22">Use heatsink when dropping from higher voltage. Place C1 and C2 close to the regulator pins.</text>
+</svg>

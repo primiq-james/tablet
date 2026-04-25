@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Circuit Tablet Native
+Comment=Launch the native field tablet app on login
+Path=/home/blackgrid/tablet
+Exec=/bin/bash -lc 'cd /home/blackgrid/tablet && source .venv-native/bin/activate && python -m native_app'
+Terminal=false
+Categories=Utility;Office;Development;
+X-GNOME-Autostart-enabled=true

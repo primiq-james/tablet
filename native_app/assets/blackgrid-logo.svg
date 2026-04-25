@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="28" x2="278" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1c2a27"/>
+      <stop offset="1" stop-color="#0f1417"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="70" y1="58" x2="248" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b8ffe2"/>
+      <stop offset=".55" stop-color="#6dd4a4"/>
+      <stop offset="1" stop-color="#2c7c62"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="103" y1="88" x2="214" y2="222" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#94ffd0"/>
+      <stop offset="1" stop-color="#4ea67f"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="320" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect x="32" y="32" width="256" height="256" rx="54" fill="url(#bg)" stroke="#24333a" stroke-width="4" filter="url(#shadow)"/>
+  <rect x="70" y="70" width="180" height="180" rx="34" fill="#10171b" stroke="url(#edge)" stroke-width="5"/>
+  <path d="M104 105h49c29 0 49 18 49 45 0 16-8 30-22 37 21 7 33 22 33 45 0 34-25 53-67 53h-42V105Zm35 29v39h13c20 0 29-7 29-20 0-13-9-19-27-19h-15Zm0 65v46h18c22 0 32-8 32-23 0-15-11-23-34-23h-16Z" fill="url(#glow)"/>
+  <path d="M221 105h-19v110h19" stroke="#6ed5a4" stroke-width="10" stroke-linecap="round"/>
+  <path d="M83 255h154" stroke="#29443d" stroke-width="4" stroke-linecap="round"/>
+</svg>

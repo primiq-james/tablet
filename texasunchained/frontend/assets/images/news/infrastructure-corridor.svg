@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#091018" />
+  <path d="M0 660 L1600 440 L1600 900 L0 900 Z" fill="#122132" />
+  <path d="M140 630 L1460 470" stroke="#c6a15c" stroke-width="10" stroke-dasharray="28 18" />
+  <path d="M220 710 L1380 560" stroke="#6d8a9c" stroke-width="5" />
+  <rect x="180" y="170" width="420" height="190" rx="28" fill="#142030" stroke="#7f8ea3" stroke-width="2" />
+  <rect x="250" y="240" width="290" height="28" rx="14" fill="#dbe3ed" opacity="0.16" />
+  <rect x="250" y="292" width="220" height="28" rx="14" fill="#dbe3ed" opacity="0.13" />
+  <text x="180" y="118" fill="#f4f2ec" font-family="Arial, sans-serif" font-size="62" font-weight="700">Infrastructure</text>
+  <text x="180" y="810" fill="#aab6c6" font-family="Arial, sans-serif" font-size="30">Ports, freight, water, power, and the corridors that make state capacity real.</text>
+</svg>

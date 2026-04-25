@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d2b3f" />
+      <stop offset="60%" stop-color="#0c121b" />
+      <stop offset="100%" stop-color="#0a0f16" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <circle cx="1270" cy="130" r="250" fill="rgba(198,161,92,0.18)" />
+  <rect x="130" y="170" width="600" height="420" rx="32" fill="#111b28" stroke="#c6a15c" stroke-width="3" />
+  <rect x="190" y="240" width="470" height="30" rx="15" fill="#d5dce6" opacity="0.16" />
+  <rect x="190" y="300" width="390" height="30" rx="15" fill="#d5dce6" opacity="0.16" />
+  <rect x="190" y="360" width="430" height="30" rx="15" fill="#d5dce6" opacity="0.16" />
+  <rect x="190" y="420" width="250" height="30" rx="15" fill="#d5dce6" opacity="0.16" />
+  <path d="M960 660 L1080 440 L1180 520 L1340 250" fill="none" stroke="#c6a15c" stroke-width="8" />
+  <circle cx="960" cy="660" r="16" fill="#c6a15c" />
+  <circle cx="1080" cy="440" r="16" fill="#c6a15c" />
+  <circle cx="1180" cy="520" r="16" fill="#c6a15c" />
+  <circle cx="1340" cy="250" r="16" fill="#c6a15c" />
+  <text x="135" y="110" fill="#f4f2ec" font-family="Arial, sans-serif" font-size="68" font-weight="700">Federal Waste</text>
+  <text x="135" y="760" fill="#aab6c6" font-family="Arial, sans-serif" font-size="32">Programs that spend heavily and deliver thin results.</text>
+</svg>

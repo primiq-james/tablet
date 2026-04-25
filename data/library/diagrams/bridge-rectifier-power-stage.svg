@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#101519"/>
+  <rect x="36" y="36" width="1208" height="648" rx="28" fill="#171f24" stroke="#294038" stroke-width="3"/>
+  <text x="84" y="110" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="34" font-weight="700">Bridge Rectifier Power Stage</text>
+  <text x="84" y="148" fill="#8fa6a0" font-family="Arial, sans-serif" font-size="20">AC transformer secondary to DC filter cap and load</text>
+
+  <line x1="110" y1="285" x2="320" y2="285" stroke="#9fd2c3" stroke-width="6"/>
+  <line x1="110" y1="445" x2="320" y2="445" stroke="#9fd2c3" stroke-width="6"/>
+  <text x="84" y="275" fill="#c8d7d1" font-family="Arial, sans-serif" font-size="20">AC~</text>
+  <text x="84" y="455" fill="#c8d7d1" font-family="Arial, sans-serif" font-size="20">AC~</text>
+
+  <polygon points="430,285 500,215 570,285 500,355" fill="#223238" stroke="#3b866b" stroke-width="4"/>
+  <polygon points="570,285 640,215 710,285 640,355" fill="#223238" stroke="#3b866b" stroke-width="4"/>
+  <polygon points="430,445 500,375 570,445 500,515" fill="#223238" stroke="#3b866b" stroke-width="4"/>
+  <polygon points="570,445 640,375 710,445 640,515" fill="#223238" stroke="#3b866b" stroke-width="4"/>
+
+  <text x="482" y="290" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="24">D1</text>
+  <text x="622" y="290" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="24">D2</text>
+  <text x="482" y="450" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="24">D3</text>
+  <text x="622" y="450" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="24">D4</text>
+
+  <line x1="320" y1="285" x2="430" y2="285" stroke="#9fd2c3" stroke-width="6"/>
+  <line x1="320" y1="445" x2="430" y2="445" stroke="#9fd2c3" stroke-width="6"/>
+  <line x1="710" y1="285" x2="900" y2="285" stroke="#9fd2c3" stroke-width="6"/>
+  <line x1="710" y1="445" x2="900" y2="445" stroke="#c5d0cd" stroke-width="6"/>
+
+  <rect x="900" y="220" width="110" height="230" rx="18" fill="#1d2a30" stroke="#36544c" stroke-width="3"/>
+  <text x="928" y="270" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="24">C1</text>
+  <text x="918" y="305" fill="#9fd2c3" font-family="Arial, sans-serif" font-size="18">2200uF</text>
+  <line x1="955" y1="220" x2="955" y2="285" stroke="#9fd2c3" stroke-width="6"/>
+  <line x1="955" y1="450" x2="955" y2="445" stroke="#c5d0cd" stroke-width="6"/>
+
+  <rect x="1050" y="255" width="90" height="190" rx="18" fill="#1d2a30" stroke="#36544c" stroke-width="3"/>
+  <text x="1072" y="330" fill="#ebf0ea" font-family="Arial, sans-serif" font-size="24">LOAD</text>
+  <line x1="1010" y1="285" x2="1050" y2="285" stroke="#9fd2c3" stroke-width="6"/>
+  <line x1="1010" y1="445" x2="1050" y2="445" stroke="#c5d0cd" stroke-width="6"/>
+
+  <text x="916" y="190" fill="#c8d7d1" font-family="Arial, sans-serif" font-size="20">+DC</text>
+  <text x="916" y="488" fill="#7e928c" font-family="Arial, sans-serif" font-size="20">GND</text>
+
+  <rect x="88" y="580" width="1104" height="58" rx="16" fill="#141a1e" stroke="#223036" stroke-width="2"/>
+  <text x="118" y="618" fill="#9fd2c3" font-family="Arial, sans-serif" font-size="22">Common reference for AC to DC supply builds: transformer secondary, diode bridge, smoothing capacitor, regulated output stage next.</text>
+</svg>
