@@ -2,3 +2,14 @@
 .pycache/
 __pycache__/
 *.pyc
+
+# Terraform working state and provider caches
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Local build and bundled binary artifacts
+data/index/*.db
+data/native/*.db
+texasunchained/bin/
+texasunchained/dist/*.zip
